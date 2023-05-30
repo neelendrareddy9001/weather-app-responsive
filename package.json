@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelendrareddy9001/weather-app-responsive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neelendrareddy9001/weather-app-responsive/issues"
+  },
+  "homepage": "https://github.com/neelendrareddy9001/weather-app-responsive#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
