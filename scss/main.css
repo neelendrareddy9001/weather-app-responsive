@@ -108,4 +108,14 @@ hr {
 .button:focus {
   box-shadow: 4px 2px 5px #000;
   border-color: #fff;
+}
+
+.searchBar {
+  padding: 0.5rem 1.5rem;
+}
+.searchBar .searchBar__form {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid lightgray;
+  border-radius: 50px;
 }/*# sourceMappingURL=main.css.map */
