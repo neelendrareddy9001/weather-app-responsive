@@ -38,4 +38,9 @@
             text-shadow: 4px 2px 5px $text-shadow-color;
         }
     }
+
+    .searchBar_form:focus-within,
+    .searchBar_form:hover {
+        box-shadow: 4px 2;
+    }
 }
