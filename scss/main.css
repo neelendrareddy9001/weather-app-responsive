@@ -151,4 +151,13 @@ hr {
 .searchBar .searchBar_form:focus-within,
 .searchBar .searchBar_form:hover {
   box-shadow: 4px 2px 5px #000;
+}
+
+.navButton {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem 0.25rem;
 }/*# sourceMappingURL=main.css.map */
