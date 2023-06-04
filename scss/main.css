@@ -123,6 +123,7 @@ hr {
   flex-grow: 1;
   border: none;
   margin-right: 0.25rem;
+  background-color: transparent;
   color: #fff;
   width: calc(100% - 52px);
   font-size: 1.25rem;
@@ -149,5 +150,5 @@ hr {
 }
 .searchBar .searchBar_form:focus-within,
 .searchBar .searchBar_form:hover {
-  box-shadow: 4px 2;
+  box-shadow: 4px 2px 5px #000;
 }/*# sourceMappingURL=main.css.map */
