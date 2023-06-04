@@ -82,8 +82,8 @@ hr {
 }
 
 .button {
-  min-width: 48px;
-  min-height: 48px;
+  min-width: 28px;
+  min-height: 28px;
   color: #fff;
   border: 2px solid lightgray;
   border-radius: 60px;
@@ -95,8 +95,8 @@ hr {
 @media only screen and (min-width: 768px) {
   .button {
     font-size: 1.5rem;
-    min-width: 64px;
-    min-height: 64px;
+    min-width: 50px;
+    min-height: 50px;
   }
 }
 
@@ -113,19 +113,19 @@ hr {
 .searchBar {
   padding: 0.5rem 1.5rem;
 }
-.searchBar .searchBar__form {
+.searchBar .searchBar_form {
   display: flex;
   justify-content: space-between;
   border: 2px solid lightgray;
   border-radius: 50px;
 }
-.searchBar .searchBar__form .searchBar__text {
+.searchBar .searchBar_form .searchBar_text {
   flex-grow: 1;
   border: none;
   margin-right: 0.25rem;
   color: #fff;
   width: calc(100% - 52px);
   font-size: 1.25rem;
-  padding: 0.75rem 0.75rem;
+  padding: 0.75rem 0 0 0.75rem;
   outline: none;
 }/*# sourceMappingURL=main.css.map */
