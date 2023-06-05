@@ -160,4 +160,42 @@ hr {
   align-items: center;
   justify-content: space-evenly;
   padding: 0.5rem 0.25rem;
+}
+
+.currentForecast .currentForecast_location {
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .currentForecast .currentForecast_location {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .currentForecast .currentForecast_location {
+    font-size: 1.7rem;
+  }
+}
+.currentForecast .currentForecast_location .temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1/span 3;
+  grid-column: 1/span 2;
+  font-size: 6rem;
+  letter-spacing: 0;
+  text-shadow: 1px 0 5px #000;
+  position: relative;
+}
+@media only screen and (min-width: 360px) {
+  .currentForecast .currentForecast_location .temp {
+    font-size: 8rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .currentForecast .currentForecast_location .temp {
+    font-size: 9rem;
+  }
 }/*# sourceMappingURL=main.css.map */
