@@ -200,13 +200,26 @@ hr {
   text-shadow: 1px 0 5px #000;
   position: relative;
 }
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 375px) {
   .currentForecast .currentForecast_conditions .temp {
-    font-size: 8rem;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 768px) {
   .currentForecast .currentForecast_conditions .temp {
-    font-size: 9rem;
+    font-size: 3rem;
+  }
+}
+.currentForecast .currentForecast_conditions .temp .unit {
+  font-size: 1.65rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: none;
+  position: relative;
+  top: 55%;
+  left: 85%;
+}
+@media only screen and (min-width: 768px) {
+  .currentForecast .currentForecast_conditions .temp .unit {
+    left: 75%;
   }
 }/*# sourceMappingURL=main.css.map */
