@@ -173,12 +173,23 @@ hr {
     font-size: 1.3rem;
   }
 }
+.currentForecast .currentForecast_conditions {
+  width: 100%;
+  font-size: 1.1rem;
+  margin: auto auto 2rem;
+  display: grid;
+}
+@media only screen and (min-width: 375px) {
+  .currentForecast .currentForecast_conditions {
+    font-size: 1.3rem;
+  }
+}
 @media only screen and (min-width: 400px) {
-  .currentForecast .currentForecast_location {
+  .currentForecast .currentForecast_conditions {
     font-size: 1.7rem;
   }
 }
-.currentForecast .currentForecast_location .temp {
+.currentForecast .currentForecast_conditions .temp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,12 +201,12 @@ hr {
   position: relative;
 }
 @media only screen and (min-width: 360px) {
-  .currentForecast .currentForecast_location .temp {
+  .currentForecast .currentForecast_conditions .temp {
     font-size: 8rem;
   }
 }
 @media only screen and (min-width: 768px) {
-  .currentForecast .currentForecast_location .temp {
+  .currentForecast .currentForecast_conditions .temp {
     font-size: 9rem;
   }
 }/*# sourceMappingURL=main.css.map */

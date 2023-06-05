@@ -7,6 +7,16 @@
         @include mq(768px) {
             font-size: 1.3rem;
         }
+    }
+
+    .currentForecast_conditions {
+        width: 100%;
+        font-size: 1.1rem;
+        margin: auto auto 2rem;
+        display: grid;
+        @include mq(375px) {
+            font-size: 1.3rem;
+        }
         @include mq(400px) {
             font-size: 1.7rem;
         }
@@ -22,7 +32,7 @@
             @include mq(360px) {
                 font-size: 8rem;
             }
-
+        
             @include mq(768px) {
                 font-size: 9rem;
             }
