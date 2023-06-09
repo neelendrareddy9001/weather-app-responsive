@@ -1,4 +1,5 @@
 import CurrentLocation from "./CurrentLocation";
+import { addSpinner } from "./domFunctions";
 const currentLoc = new CurrentLocation();
 
 const initApp = () => {
@@ -16,7 +17,8 @@ document.addEventListener("DOMContentLoaded", initApp);
 const getGeoWeather = (event) => {
     if(event) {
         if(event.type === "click") {
-
+             const mapIcon = document.querySelector(".fa-map-marker-alt");
+             addSpinner(mapIcon);
         }
     }
 
