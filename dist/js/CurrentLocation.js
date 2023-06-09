@@ -35,6 +35,10 @@ export default class CurrentLocation {
     }
 
     setUnit (unit) {
+        this._unit = unit;
+    }
+
+    toggleUnit (unit) {
         this._unit = this._unit === "imperial" ? "metric" : "imperial";
     }
 }
