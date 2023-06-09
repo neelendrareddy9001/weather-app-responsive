@@ -25,3 +25,8 @@ const getGeoWeather = (event) => {
     if(!navigator.geolocation) geoError();
     navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
 }
+
+const geoError = (errObj) => {
+    const errMsg = errObj.message ? errObj.message : "Geolocation not supported";
+    displayError(errMsg, errMsg);
+}
